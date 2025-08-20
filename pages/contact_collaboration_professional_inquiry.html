@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact & Collaboration - Yassine | Professional Data Engineering Inquiries</title>
+    <meta name="description" content="Connect with Yassine for data engineering projects, BI consulting, and professional collaboration. Multiple contact channels with 24-48 hour response guarantee." />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fyassinepor7092back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.6"></script>
+</head>
+<body class="bg-background font-body text-text-primary">
+    <!-- Navigation Header -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-primary-200 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="homepage_data_engineering_portfolio.html" class="flex items-center space-x-2">
+                        <div class="w-8 h-8 bg-gradient-to-br from-accent to-accent-600 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-sm">Y</span>
+                        </div>
+                        <span class="font-headline text-xl font-bold text-primary">Yassine Bahaj</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="homepage_data_engineering_portfolio.html" class="text-text-secondary hover:text-primary transition-colors px-3 py-2">Home</a>
+                        <a href="experience_showcase_professional_journey.html" class="text-text-secondary hover:text-primary transition-colors px-3 py-2">Experience</a>
+                        <a href="technical_skills_hub_expertise_matrix.html" class="text-text-secondary hover:text-primary transition-colors px-3 py-2">Skills</a>
+                        <a href="project_portfolio_case_studies.html" class="text-text-secondary hover:text-primary transition-colors px-3 py-2">Projects</a>
+                        <a href="about_vision_professional_story.html" class="text-text-secondary hover:text-primary transition-colors px-3 py-2">About</a>
+                        <a href="contact_collaboration_professional_inquiry.html" class="text-primary font-medium border-b-2 border-accent px-3 py-2">Contact</a>
+                    </div>
+                </div>                    
+                    <!-- Mobile menu button -->
+                    <div class="md:hidden">
+                        <button type="button" class="text-text-secondary hover:text-primary p-2">
+                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-primary-50 via-white to-accent-50 py-16 overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <svg class="w-full h-full" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                        <path d="M 10 0 L 0 0 0 10" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="100" height="100" fill="url(#grid)"/>
+            </svg>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="font-headline text-4xl lg:text-5xl font-bold text-primary mb-6">
+                    Let's Build Something
+                    <span class="text-accent block">Extraordinary Together</span>
+                </h1>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto mb-8">
+                    Ready to transform your data infrastructure? I'm here to discuss your BI challenges, project requirements, and collaboration opportunities.
+                </p>
+
+                <!-- Response Time Guarantee -->
+                <div class="inline-flex items-center bg-success-50 text-success-600 px-6 py-3 rounded-full border border-success-200">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <span class="font-medium">24-48 Hour Response Guarantee</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Contact Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-16">
+                <!-- Contact Form -->
+                <div class="space-y-8">
+                    <div>
+                        <h2 class="font-headline text-3xl font-bold text-primary mb-4">Professional Inquiry Form</h2>
+                        <p class="text-text-secondary">Tell me about your project and how I can help you achieve your data goals.</p>
+                    </div>
+
+                    <form class="space-y-6" id="contactForm">
+                        <!-- Inquiry Type -->
+                        <div>
+                            <label for="inquiryType" class="block text-sm font-medium text-text-primary mb-2">Inquiry Type *</label>
+                            <select id="inquiryType" name="inquiryType" required class="form-input w-full">
+                                <option value>Select inquiry type</option>
+                                <option value="hiring">Hiring Manager - Full-time Position</option>
+                                <option value="recruiting">Technical Recruiter - Candidate Assessment</option>
+                                <option value="consulting">Project Consulting - BI Implementation</option>
+                                <option value="collaboration">Professional Collaboration</option>
+                                <option value="speaking">Speaking Engagement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <!-- Personal Information -->
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label for="firstName" class="block text-sm font-medium text-text-primary mb-2">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required class="form-input w-full" placeholder="John" />
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-sm font-medium text-text-primary mb-2">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required class="form-input w-full" placeholder="Doe" />
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-text-primary mb-2">Email Address *</label>
+                                <input type="email" id="email" name="email" required class="form-input w-full" placeholder="john.doe@company.com" />
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-text-primary mb-2">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input w-full" placeholder="+212 6 12 34 56 78" />
+                            </div>
+                        </div>
+
+                        <!-- Company Information -->
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label for="company" class="block text-sm font-medium text-text-primary mb-2">Company/Organization</label>
+                                <input type="text" id="company" name="company" class="form-input w-full" placeholder="Acme Corporation" />
+                            </div>
+                            <div>
+                                <label for="position" class="block text-sm font-medium text-text-primary mb-2">Your Position</label>
+                                <input type="text" id="position" name="position" class="form-input w-full" placeholder="CTO, HR Manager, etc." />
+                            </div>
+                        </div>
+
+                        <!-- Project Details -->
+                        <div>
+                            <label for="projectScope" class="block text-sm font-medium text-text-primary mb-2">Project Scope/Requirements</label>
+                            <textarea id="projectScope" name="projectScope" rows="4" class="form-input w-full" placeholder="Describe your project requirements, current challenges, or what you're looking to achieve..."></textarea>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label for="timeline" class="block text-sm font-medium text-text-primary mb-2">Project Timeline</label>
+                                <select id="timeline" name="timeline" class="form-input w-full">
+                                    <option value>Select timeline</option>
+                                    <option value="immediate">Immediate (Within 2 weeks)</option>
+                                    <option value="short">Short-term (1-3 months)</option>
+                                    <option value="medium">Medium-term (3-6 months)</option>
+                                    <option value="long">Long-term (6+ months)</option>
+                                    <option value="ongoing">Ongoing collaboration</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="budget" class="block text-sm font-medium text-text-primary mb-2">Budget Range (EUR)</label>
+                                <select id="budget" name="budget" class="form-input w-full">
+                                    <option value>Select budget range</option>
+                                    <option value="under-10k">Under €10,000</option>
+                                    <option value="10k-25k">€10,000 - €25,000</option>
+                                    <option value="25k-50k">€25,000 - €50,000</option>
+                                    <option value="50k-100k">€50,000 - €100,000</option>
+                                    <option value="over-100k">Over €100,000</option>
+                                    <option value="salary">Salary Position</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Additional Message -->
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-text-primary mb-2">Additional Message</label>
+                            <textarea id="message" name="message" rows="4" class="form-input w-full" placeholder="Any additional information you'd like to share..."></textarea>
+                        </div>
+
+                        <!-- CAPTCHA Placeholder -->
+                        <div class="bg-surface p-4 rounded-lg border border-primary-200">
+                            <div class="flex items-center space-x-3">
+                                <input type="checkbox" id="captcha" name="captcha" required class="w-4 h-4 text-accent border-primary-300 rounded focus:ring-accent" />
+                                <label for="captcha" class="text-sm text-text-primary">I'm not a robot (CAPTCHA verification)</label>
+                            </div>
+                        </div>
+
+                        <!-- Privacy Notice -->
+                        <div class="bg-primary-50 p-4 rounded-lg border border-primary-200">
+                            <div class="flex items-start space-x-3">
+                                <input type="checkbox" id="privacy" name="privacy" required class="w-4 h-4 text-accent border-primary-300 rounded focus:ring-accent mt-1" />
+                                <label for="privacy" class="text-sm text-text-secondary">
+                                    I agree to the processing of my personal data in accordance with GDPR regulations. Your information will only be used to respond to your inquiry and will not be shared with third parties.
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn-primary w-full flex items-center justify-center">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+                            </svg>
+                            Send Professional Inquiry
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Information & Calendar -->
+                <div class="space-y-8">
+                    <!-- Direct Contact Options -->
+                    <div class="bg-surface rounded-2xl p-8 border border-primary-200">
+                        <h3 class="font-headline text-2xl font-bold text-primary mb-6">Direct Contact</h3>
+                        
+                        <div class="space-y-6">
+                            <!-- Email -->
+                            <div class="flex items-center space-x-4">
+                                <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-medium text-text-primary">Professional Email</p>
+                                    <a href="mailto:yassine@dataengineer.pro" class="text-accent hover:text-accent-600 transition-colors">yassinbahaj@outlook.com</a>
+                                </div>
+                            </div>
+
+                            <!-- Phone -->
+                            <div class="flex items-center space-x-4">
+                                <div class="w-12 h-12 bg-success-100 rounded-lg flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-success" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-medium text-text-primary">Phone (Maroc)</p>
+                                    <a href="tel:+212602877549" class="text-success hover:text-success-600 transition-colors">+2126 02 87 75 49</a>
+                                </div>
+                            </div>
+
+                            <!-- LinkedIn -->
+                            <div class="flex items-center space-x-4">
+                                <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-medium text-text-primary">LinkedIn Profile</p>
+                                    <a href="javascript:void(0)" class="text-primary hover:text-primary-600 transition-colors">www.linkedin.com/in/yassine-bahaj</a>
+                                </div>
+                            </div>
+
+                            <!-- Location -->
+                            <div class="flex items-center space-x-4">
+                                <div class="w-12 h-12 bg-warning-100 rounded-lg flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-warning" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-medium text-text-primary">Location</p>
+                                    <p class="text-text-secondary">Casablanca, Maroc </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Availability Calendar -->
+                    <div class="bg-white rounded-2xl p-8 border border-primary-200 shadow-subtle">
+                        <h3 class="font-headline text-2xl font-bold text-primary mb-6">Schedule a Consultation</h3>
+                        
+                        <!-- Calendar Widget Placeholder -->
+                        <div class="space-y-4">
+                            <div class="grid grid-cols-7 gap-1 text-center text-sm">
+                                <div class="font-medium text-text-secondary py-2">Mon</div>
+                                <div class="font-medium text-text-secondary py-2">Tue</div>
+                                <div class="font-medium text-text-secondary py-2">Wed</div>
+                                <div class="font-medium text-text-secondary py-2">Thu</div>
+                                <div class="font-medium text-text-secondary py-2">Fri</div>
+                                <div class="font-medium text-text-secondary py-2">Sat</div>
+                                <div class="font-medium text-text-secondary py-2">Sun</div>
+                                
+                                <!-- Calendar Days -->
+                                <div class="py-2 text-text-secondary">29</div>
+                                <div class="py-2 text-text-secondary">30</div>
+                                <div class="py-2 text-text-secondary">31</div>
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">1</div>
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">2</div>
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">3</div>
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">4</div>
+                                
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">5</div>
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">6</div>
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">7</div>
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">8</div>
+                                <div class="py-2 bg-accent text-white rounded cursor-pointer">9</div>
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">10</div>
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">11</div>
+                                
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">12</div>
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">13</div>
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">14</div>
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">15</div>
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">16</div>
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">17</div>
+                                <div class="py-2 text-text-primary cursor-pointer hover:bg-accent-100 rounded">18</div>
+                            </div>
+
+                            <!-- Available Time Slots -->
+                            <div class="mt-6">
+                                <h4 class="font-medium text-text-primary mb-3">Available Time Slots (CET)</h4>
+                                <div class="grid grid-cols-2 gap-2">
+                                    <button class="px-3 py-2 text-sm border border-primary-200 rounded hover:bg-accent-50 hover:border-accent transition-colors">09:00 - 10:00</button>
+                                    <button class="px-3 py-2 text-sm border border-primary-200 rounded hover:bg-accent-50 hover:border-accent transition-colors">10:30 - 11:30</button>
+                                    <button class="px-3 py-2 text-sm border border-primary-200 rounded hover:bg-accent-50 hover:border-accent transition-colors">14:00 - 15:00</button>
+                                    <button class="px-3 py-2 text-sm border border-primary-200 rounded hover:bg-accent-50 hover:border-accent transition-colors">15:30 - 16:30</button>
+                                </div>
+                            </div>
+
+                            <button class="btn-accent w-full mt-4">
+                                Book Consultation Call
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-surface">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-headline text-3xl lg:text-4xl font-bold text-primary mb-4">Frequently Asked Questions</h2>
+                <p class="text-xl text-text-secondary">Quick answers to common collaboration questions</p>
+            </div>
+
+            <div class="space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white rounded-xl p-6 border border-primary-200 hover-lift">
+                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFAQ(1)">
+                        <h3 class="font-headline text-lg font-semibold text-primary">What types of projects do you typically work on?</h3>
+                        <svg class="w-5 h-5 text-text-secondary transform transition-transform" id="faq-icon-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="mt-4 text-text-secondary hidden" id="faq-content-1">
+                        <p>I specialize in Business Intelligence implementations, data warehouse architecture, ETL pipeline optimization, and cloud migration projects. My expertise covers enterprise-level BI solutions using tools like Talend, IBM DataStage, Power BI, and cloud platforms (AWS, Azure). I work with companies ranging from mid-size businesses to large enterprises across various industries.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-white rounded-xl p-6 border border-primary-200 hover-lift">
+                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFAQ(2)">
+                        <h3 class="font-headline text-lg font-semibold text-primary">Are you available for remote work?</h3>
+                        <svg class="w-5 h-5 text-text-secondary transform transition-transform" id="faq-icon-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="mt-4 text-text-secondary hidden" id="faq-content-2">
+                        <p>Yes, I'm fully equipped for remote collaboration and have successfully delivered projects for international clients. I'm based in Casablanca, Morocco . I prefer hybrid arrangements for long-term projects but am flexible based on project requirements.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-white rounded-xl p-6 border border-primary-200 hover-lift">
+                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFAQ(3)">
+                        <h3 class="font-headline text-lg font-semibold text-primary">What is your typical project timeline?</h3>
+                        <svg class="w-5 h-5 text-text-secondary transform transition-transform" id="faq-icon-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="mt-4 text-text-secondary hidden" id="faq-content-3">
+                        <p>Project timelines vary based on scope and complexity. Small BI implementations typically take 2-4 weeks, medium-scale data warehouse projects 2-4 months, and enterprise-wide transformations 6+ months. I provide detailed project timelines during the initial consultation phase and maintain transparent progress tracking throughout.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="bg-white rounded-xl p-6 border border-primary-200 hover-lift">
+                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFAQ(4)">
+                        <h3 class="font-headline text-lg font-semibold text-primary">Do you provide ongoing support after project completion?</h3>
+                        <svg class="w-5 h-5 text-text-secondary transform transition-transform" id="faq-icon-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="mt-4 text-text-secondary hidden" id="faq-content-4">
+                        <p>Yes, I offer comprehensive post-implementation support including system monitoring, performance optimization, user training, and maintenance contracts. I believe in building long-term partnerships and ensuring the continued success of implemented solutions. Support packages can be customized based on your specific needs.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="bg-white rounded-xl p-6 border border-primary-200 hover-lift">
+                    <button class="flex items-center justify-between w-full text-left" onclick="toggleFAQ(5)">
+                        <h3 class="font-headline text-lg font-semibold text-primary">Can you work in multiple languages?</h3>
+                        <svg class="w-5 h-5 text-text-secondary transform transition-transform" id="faq-icon-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="mt-4 text-text-secondary hidden" id="faq-content-5">
+                        <p>Absolutely! I'm fluent in French, Arabic, and English, which allows me to work effectively with diverse international teams and stakeholders. This multilingual capability is particularly valuable for global organizations and helps ensure clear communication throughout project lifecycles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Downloadable Resources Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-headline text-3xl lg:text-4xl font-bold text-primary mb-4">Professional Resources</h2>
+                <p class="text-xl text-text-secondary">Download detailed information about my expertise and experience</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- CV Download -->
+                <div class="bg-surface rounded-xl p-8 border border-primary-200 text-center hover-lift">
+                    <div class="w-16 h-16 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-headline text-xl font-semibold text-primary mb-3">Detailed CV</h3>
+                    <p class="text-text-secondary mb-6">Complete professional resume with project details, certifications, and technical skills matrix.</p>
+                    <a href="../public/cv.pdf" class="btn-primary inline-flex items-center">Télécharger mon CV</a>
+                        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                        Download CV (PDF)
+                    </a>
+                </div>               
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-20 bg-gradient-to-r from-primary to-primary-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="font-headline text-3xl lg:text-4xl font-bold text-white mb-6">Ready to Start Your Data Transformation?</h2>
+            <p class="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">Whether you're looking to optimize existing systems or build new BI solutions from scratch, I'm here to help you achieve measurable results.</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#contactForm" class="bg-accent hover:bg-accent-500 text-primary font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105">
+                    Start Your Project
+                </a>
+                <a href="project_portfolio_case_studies.html" class="border-2 border-white text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 rounded-lg transition-all duration-300">
+                    View Success Stories
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                 <!-- Brand -->
+            <div class="col-span-2">
+                <div class="flex items-center space-x-2 mb-4">
+                    <div class="w-8 h-8 bg-gradient-to-br from-accent to-accent-600 rounded-lg flex items-center justify-center">
+                         <span class="text-white font-bold text-sm">Y</span>
+                    </div>
+                 <span class="font-headline text-xl font-bold">Yassine</span>
+                </div>
+
+                <p class="text-primary-300 mb-4 max-w-md">
+                  Transforming complex data ecosystems into strategic business advantages through innovative BI solutions and measurable impact.
+                </p>
+
+                <div class="flex space-x-4">
+                   <a href="https://www.linkedin.com/in/yassine-bahaj" target="_blank" class="text-primary-300 hover:text-accent transition-colors">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                   </a>
+                   <a href="https://github.com/yassine-jab" target="_blank" class="text-primary-300 hover:text-accent transition-colors">
+                     <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                     <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                     </svg>
+                    </a>
+                </div>
+            </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-headline text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="experience_showcase_professional_journey.html" class="text-primary-300 hover:text-accent transition-colors">Experience</a></li>
+                        <li><a href="technical_skills_hub_expertise_matrix.html" class="text-primary-300 hover:text-accent transition-colors">Skills</a></li>
+                        <li><a href="project_portfolio_case_studies.html" class="text-primary-300 hover:text-accent transition-colors">Projects</a></li>
+                        <li><a href="about_vision_professional_story.html" class="text-primary-300 hover:text-accent transition-colors">About</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-headline text-lg font-semibold mb-4">Get in Touch</h3>
+                    <ul class="space-y-2">
+                        <li class="text-primary-300">📧 yassinbahaj@outlook.com</li>
+                        <li class="text-primary-300">📱 +212 6 02 87 75 94</li>
+                        <li class="text-primary-300">📍 Casablanca , Maroc</li>
+                        <li><a href="contact_collaboration_professional_inquiry.html" class="text-accent hover:text-accent-400 transition-colors">Schedule Meeting</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-primary-700 mt-8 pt-8 text-center">
+                <p class="text-primary-300">© 2025 Yassine - Data Engineering Portfolio. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Interactive Elements -->
+    <script>
+        // FAQ Toggle Functionality
+        function toggleFAQ(index) {
+            const content = document.getElementById(`faq-content-${index}`);
+            const icon = document.getElementById(`faq-icon-${index}`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        // Form Submission Handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Show success message
+            const formData = new FormData(this);
+            const inquiryType = formData.get('inquiryType');
+            const firstName = formData.get('firstName');
+            
+            // Simulate form submission
+            const submitButton = this.querySelector('button[type="submit"]');
+            const originalText = submitButton.innerHTML;
+            
+            submitButton.innerHTML = `
+                <svg class="w-5 h-5 mr-2 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                </svg>
+                Sending Message...
+            `;
+            submitButton.disabled = true;
+            
+            setTimeout(() => {
+                submitButton.innerHTML = `
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    Message Sent Successfully!
+                `;
+                submitButton.classList.remove('btn-primary');
+                submitButton.classList.add('bg-success', 'text-white');
+                
+                // Show confirmation message
+                const confirmationDiv = document.createElement('div');
+                confirmationDiv.className = 'mt-4 p-4 bg-success-50 border border-success-200 rounded-lg';
+                confirmationDiv.innerHTML = `
+                    <div class="flex items-center">
+                        <svg class="w-5 h-5 text-success mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <p class="text-success-600 font-medium">Thank you, ${firstName}! Your ${inquiryType} inquiry has been received. I'll respond within 24-48 hours with next steps.</p>
+                    </div>
+                `;
+                this.appendChild(confirmationDiv);
+                
+                // Reset form after 3 seconds
+                setTimeout(() => {
+                    this.reset();
+                    submitButton.innerHTML = originalText;
+                    submitButton.disabled = false;
+                    submitButton.classList.add('btn-primary');
+                    submitButton.classList.remove('bg-success', 'text-white');
+                    confirmationDiv.remove();
+                }, 3000);
+            }, 2000);
+        });
+
+        // Calendar Date Selection
+        document.querySelectorAll('.py-2.cursor-pointer').forEach(day => {
+            day.addEventListener('click', function() {
+                // Remove previous selection
+                document.querySelectorAll('.bg-accent').forEach(selected => {
+                    if (selected !== this) {
+                        selected.classList.remove('bg-accent', 'text-white');
+                        selected.classList.add('hover:bg-accent-100');
+                    }
+                });
+                
+                // Add selection to clicked day
+                if (!this.classList.contains('bg-accent')) {
+                    this.classList.add('bg-accent', 'text-white');
+                    this.classList.remove('hover:bg-accent-100');
+                }
+            });
+        });
+
+        // Time Slot Selection
+        document.querySelectorAll('button[class*="px-3 py-2 text-sm border"]').forEach(slot => {
+            slot.addEventListener('click', function() {
+                // Remove previous selection
+                document.querySelectorAll('button[class*="px-3 py-2 text-sm border"]').forEach(s => {
+                    s.classList.remove('bg-accent', 'text-white', 'border-accent');
+                    s.classList.add('border-primary-200', 'hover:bg-accent-50', 'hover:border-accent');
+                });
+                
+                // Add selection to clicked slot
+                this.classList.add('bg-accent', 'text-white', 'border-accent');
+                this.classList.remove('border-primary-200', 'hover:bg-accent-50', 'hover:border-accent');
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to navigation
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 100) {
+                nav.classList.add('shadow-lg');
+            } else {
+                nav.classList.remove('shadow-lg');
+            }
+        });
+
+        // Language selector functionality
+        document.querySelector('select').addEventListener('change', function() {
+            const selectedLang = this.value;
+            // Simulate language change (in a real app, this would trigger content translation)
+            console.log(`Language changed to: ${selectedLang}`);
+        });
+    </script>
+</body>
+</html>
